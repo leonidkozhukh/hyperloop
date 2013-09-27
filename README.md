@@ -694,16 +694,20 @@ Feedback is welcomed on these or any useful aspects of the Hyperloop design. E-m
 [figure-3]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure3.png "figure 3"
 [figure-4]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure4.png "figure 4"
 [figure-5]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure5.png "figure 5"
+[figure-6]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure6.png "figure 6"
+[figure-7]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure7.png "figure 7"
+[figure-8]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure8.png "figure 8"
+[figure-9]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure9.png "figure 9"
+[figure-10]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure10.png "figure 10"
+[figure-11]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure11.png "figure 11"
+[figure-12]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure12.png "figure 12"
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 [figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-
-
-
+[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
 
 
 
