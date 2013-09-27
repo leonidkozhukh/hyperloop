@@ -110,47 +110,89 @@ Useful feedback is welcomed on aspects of the Hyperloop design. E-mail feedback 
 -------------------------
 
 1. [Abstract] (#abstract)
+
 2. [Table of Contents] (#contents)
+
 3. [Background] (#background)
+
 4. [Hyperloop Transportation System] (#system)
-  4.1. [Capsule] (#capsule)
-    4.1.1. [Geometry] (#capsule-geometry) 
-    4.1.2. [Interior] (#capsule-interior)
-    4.1.3. [Compressor] (#capsule-compressor)
-    4.1.4. [Suspension] (#capsule-suspension)
-    4.1.5. [Onboard Power] (#capsule-power)
-    4.1.6. [Propulsion] (#capsule-propulsion)
-    4.1.7. [Cost] (#capsule-cost)
-  4.2. [Tube] (#tube)
-    4.2.1. [Geometry] (#tube-geometry)
-    4.2.2. [Tube Construction] (#tube-construction)
-    4.2.3. [Pylons and Tunnels] (#tube-support)
-    4.2.4. [Station Construction] (#tube-stations)
-    4.2.5. [Cost] (#tube-cost)
-  4.3. [Propulsion] (#propulsion)
-    4.3.1. [Capsule Components (Rotor)] (#propulsion-rotor)
-    4.3.2. [Tube Components (Stator)] (#propulsion-stator)
-    4.3.3. [Energy Storage Components] (#propulsion-energy)
-    4.3.4. [Cost] (#propulsion-cost)
-    4.3.5. [Propulsion for Passenger Plus Vehicle System] (#propulsion-freight)
-  4.4. [Route] (#route)
-    4.4.1. [Route Optimization] (#route-optimization)
-      4.4.1.1. [Los Angeles/Grapevine - South] (#route-south)
-      4.4.1.2. [Los Angeles/Grapevine - North] (#route-north)
-      4.4.1.3. [Center Section of I-5] (#route-i5)
-      4.4.1.4. [I-580/San Francicso Bay] (#route-i580)
-    4.4.2. [Station Locations] (#route-stations)
-  4.5. [Safety and Reliability] (#safety)
-    4.5.1. [Onboard Passenger Emergency] (#safety-onboard)
-    4.5.2. [Power Outage] (#safety-power)
-    4.5.3. [Capsule Depressurization] (#safety-depressurization)
-    4.5.4. [Capsule Stranded in Tube] (#safety-tube)
-    4.5.5. [Structural Integrity of the Tube in Jeopardy] (#safety-structural)
-    4.5.6. [Earthquakes] (#safety-earthquakes)
-    4.5.7. [Human Related Incidents] (#safety-humans)
-    4.5.8. [Reliability] (#safety-reliability)
-  4.6. [Cost] (#cost)
+
+    4.1. [Capsule] (#capsule)
+    
+        4.1.1. Geometry
+        
+        4.1.2. Interior
+        
+        4.1.3. Compressor
+        
+        4.1.4. Suspension
+        
+        4.1.5. Onboard Power
+        
+        4.1.6. Propulsion
+        
+        4.1.7. Cost
+    
+    4.2. [Tube] (#tube)
+    
+        4.2.1. Geometry
+        
+        4.2.2. Tube Construction
+        
+        4.2.3. Pylons and Tunnels
+        
+        4.2.4. Station Construction
+        
+        4.2.5. Cost
+        
+    4.3. [Propulsion] (#propulsion)
+    
+        4.3.1. Capsule Components (Rotor)
+        
+        4.3.2. Tube Components (Stator)
+        
+        4.3.3. Energy Storage Components
+        
+        4.3.4. Cost
+        
+        4.3.5. Propulsion for Passenger Plus Vehicle System
+        
+    4.4. [Route] (#route)
+    
+        4.4.1. Route Optimization
+            
+            4.4.1.1. Los Angeles/Grapevine - South
+            
+            4.4.1.2. Los Angeles/Grapevine - North
+      
+            4.4.1.3. Center Section of I-5
+      
+            4.4.1.4. I-580/San Francicso Bay
+    
+        4.4.2. Station Locations
+        
+    4.5. [Safety and Reliability] (#safety)
+    
+        4.5.1. Onboard Passenger Emergency
+    
+        4.5.2. Power Outage
+    
+        4.5.3. Capsule Depressurization
+    
+        4.5.4. Capsule Stranded in Tube
+        
+        4.5.5. Structural Integrity of the Tube in Jeopardy
+    
+        4.5.6. Earthquakes
+    
+        4.5.7. Human Related Incidents
+    
+        4.5.8. Reliability
+  
+    4.6. [Cost] (#cost)
+    
 5. [Conclusions] (#conclusions)
+
 6. [Future Work] (#future)
 
 # <a name="background"></a>3. Background
@@ -182,25 +224,46 @@ The current contender for a new transportation system between southern and north
 
 A new high speed mode of transport is desired between Los Angeles and San Francisco; however, the proposed California High Speed Rail does not reduce current trip times or reduce costs relative to existing modes of transport. This preliminary design study proposes a new mode of high speed transport that reduces both the travel time and travel cost between Los Angeles and San Francisco. Options are also included to increase the transportation system to other major population centers across California. It is also worth noting the energy cost of this system is less than any currently existing mode of transport (Figure 1). The only system that comes close to matching the low energy requirements of Hyperloop is the fully electric Tesla Model S.
 
+![alt-text][figure-1]
+
 # <a name="system"></a>4. Hyperloop Transportation System
 -------------------------
 
 Hyperloop (Figure 2 and Figure 3) is a proposed transportation system for traveling between Los Angeles, California, and San Francisco, California in 35 minutes. The Hyperloop consists of several distinct components, including:
 
 1. Capsule: 
-  a. Sealed capsules carrying 28 passengers each that travel along the interior of the tube depart on average every 2 minutes from Los Angeles or San Francisco (up to every 30 seconds during peak usage hours).
-  b. A larger system has also been sized that allows transport of 3 full size automobiles with passengers to travel in the capsule.
-  c. The capsules are separated within the tube by approximately 23 miles (37 km) on average during operation.
-  d. The capsules are supported via air bearings that operate using a compressed air reservoir and aerodynamic lift.
+
+    a. Sealed capsules carrying 28 passengers each that travel along the interior of the tube depart on average every 2 minutes from Los Angeles or San Francisco (up to every 30 seconds during peak usage hours).
+    
+    b. A larger system has also been sized that allows transport of 3 full size automobiles with passengers to travel in the capsule.
+    
+    c. The capsules are separated within the tube by approximately 23 miles (37 km) on average during operation.
+    
+    d. The capsules are supported via air bearings that operate using a compressed air reservoir and aerodynamic lift.
+
 2. Tube: 
-  a. The tube is made of steel. Two tubes will be welded together in a side-by-side configuration to allow the capsules to travel both directions. 
-  b. Pylons are placed every 100 ft (30 m) to support the tube. 
-  c. Solar arrays will cover the top of the tubes in order to provide power to the system. 
+  
+    a. The tube is made of steel. Two tubes will be welded together in a side-by-side configuration to allow the capsules to travel both directions. 
+    
+    b. Pylons are placed every 100 ft (30 m) to support the tube. 
+  
+    c. Solar arrays will cover the top of the tubes in order to provide power to the system. 
+
 3. Propulsion: 
-  a. Linear accelerators are constructed along the length of the tube at various locations to accelerate the capsules.
-  b. Rotors are located on the capsules to transfer momentum to the capsules via the linear accelerators.
+
+    a. Linear accelerators are constructed along the length of the tube at various locations to accelerate the capsules.
+    
+    b. Rotors are located on the capsules to transfer momentum to the capsules via the linear accelerators.
+
 4. Route: 
-  a. There will be a station at Los Angeles and San Francisco. Several stations along the way will be possible with splits in the tube. b. The majority of the route will follow I-5 and the tube will be constructed in the median.
+  
+    a. There will be a station at Los Angeles and San Francisco. Several stations along the way will be possible with splits in the tube. 
+    
+    b. The majority of the route will follow I-5 and the tube will be constructed in the median.
+
+![alt-text][figure-2]
+
+![alt-text][figure-3]
 
 In addition to these aspects of the Hyperloop, safety and cost will also be addressed in this study.
 
@@ -226,11 +289,19 @@ Just as aircraft climb to high altitudes to travel through less dense air, Hyper
 
 The proposed capsule geometry houses several distinct systems to reside within the outer mold line (Figure 4).
 
-# <a name="capsule-geometry"></a>4.1.1. Geometry
+![alt-text][figure-4]
+
+**4.1.1. Geometry**
 
 In order to optimize the capsule speed and performance, the frontal area has been minimized for size while maintaining passenger comfort (Figure 5 and Figure 6).
 
+![alt-text][figure-5]
+
+![alt-text][figure-6]
+
 The vehicle is streamlined to reduce drag and features a compressor at the leading face to ingest oncoming air for levitation and to a lesser extent propulsion. Aerodynamic simulations have demonstrated the validity of this ‘compressor within a tube’ concept (Figure 7).
+
+![alt-text][figure-7]
 
 *Hyperloop Passenger Capsule*
 
@@ -248,7 +319,7 @@ The aerodynamic power requirement at 700 mph (1,130 kph) is around only 382 hp (
 
 The overall structure weight is expected to be near 7,700 lb (3,500 kg) including the luggage compartments and door mechanism. The overall cost of the structure including manufacturing is targeted to be no more than $275,000.
 
-# <a name="capsule-interior"></a>4.1.2. Interior
+**4.1.2. Interior**
 
 The interior of the capsule is specifically designed with passenger safety and comfort in mind. The seats conform well to the body to maintain comfort during the high speed accelerations experienced during travel. Beautiful landscape will be displayed in the cabin and each passenger will have access their own personal entertainment system.
 
@@ -256,11 +327,15 @@ The interior of the capsule is specifically designed with passenger safety and c
 
 The Hyperloop passenger capsule (Figure 8 and Figure 9) overall interior weight is expected to be near 5,500 lb (2,500 kg) including the seats, restraint systems, interior and door panels, luggage compartments, and entertainment displays. The overall cost of the interior components is targeted to be no more than $255,000.
 
+![alt-text][figure-8]
+
+![alt-text][figure-9]
+
 *Hyperloop Passenger Plus Vehicle Capsule*
 
 The Hyperloop passenger plus vehicle capsule overall interior weight is expected to be near 6,000 lb (2,700 kg) including the seats, restraint systems, interior and door panels, luggage compartments, and entertainment displays. The overall cost of the interior components is targeted to be no more than $185,000. Note this cost is lower than the passenger only capsule interior as vehicles do not require the same level of comfort as passengers.
 
-# <a name="capsule-compressor"></a>4.1.3. Compressor
+**4.1.3. Compressor**
 
 One important feature of the capsule is the onboard compressor, which serves two purposes. This system allows the capsule to traverse the relatively narrow tube without choking flow that travels between the capsule and the tube walls (resulting in a build-up of air mass in front of the capsule and increasing the drag) by compressing air that is bypassed through the capsule. It also supplies air to air bearings that support the weight of the capsule throughout the journey.
 
@@ -269,41 +344,76 @@ The air processing occurs as follows (Figure 10 and Figure 11) (note mass counti
 *Hyperloop Passenger Capsule*
 
 1. Tube air is compressed with a compression ratio of 20:1 via an axial compressor.
-2. Up to 60% of this air is bypassed: 
-  a. The air travels via a narrow tube near bottom of the capsule to the tail. 
-  b. A nozzle at the tail expands the flow generating thrust to mitigate some of the small amounts of aerodynamic and bearing drag. 
-3. Up to 0.44 lb/s (0.2 kg/s) of air is cooled and compressed an additional 5.2:1 for the passenger version with additional cooling afterward. 
-  a. This air is stored in onboard composite overwrap pressure vessels. 
-  b. The stored air is eventually consumed by the air bearings to maintain distance between the capsule and tube walls. 
-4. An onboard water tank is used for cooling of the air.
-  a. Water is pumped at 0.30 lb/s (0.14 kg/s) through two intercoolers (639 lb or 290 kg total mass of coolant).
-  b. The steam is stored onboard until reaching the station.
-  c. Water and steam tanks are changed automatically at each stop. 
-5. The compressor is powered by a 436 hp (325 kW) onboard electric motor: 
-  a. The motor has an estimated mass of 372 lb (169 kg), which includes power electronics.
-  b. An estimated 3,400 lb (1,500 kg) of batteries provides 45 minutes of onboard compressor power, which is more than sufficient for the travel time with added reserve backup power. 
-  c. Onboard batteries are changed at each stop and charged at the stations.
 
-*yperloop Passenger Plus Vehicle Capsule*
+2. Up to 60% of this air is bypassed: 
+
+    a. The air travels via a narrow tube near bottom of the capsule to the tail. 
+    
+    b. A nozzle at the tail expands the flow generating thrust to mitigate some of the small amounts of aerodynamic and bearing drag. 
+
+3. Up to 0.44 lb/s (0.2 kg/s) of air is cooled and compressed an additional 5.2:1 for the passenger version with additional cooling afterward. 
+
+    a. This air is stored in onboard composite overwrap pressure vessels. 
+    
+    b. The stored air is eventually consumed by the air bearings to maintain distance between the capsule and tube walls. 
+
+4. An onboard water tank is used for cooling of the air.
+
+    a. Water is pumped at 0.30 lb/s (0.14 kg/s) through two intercoolers (639 lb or 290 kg total mass of coolant).
+    
+    b. The steam is stored onboard until reaching the station.
+    
+    c. Water and steam tanks are changed automatically at each stop. 
+
+5. The compressor is powered by a 436 hp (325 kW) onboard electric motor: 
+
+    a. The motor has an estimated mass of 372 lb (169 kg), which includes power electronics.
+  
+    b. An estimated 3,400 lb (1,500 kg) of batteries provides 45 minutes of onboard compressor power, which is more than sufficient for the travel time with added reserve backup power. 
+  
+    c. Onboard batteries are changed at each stop and charged at the stations.
+
+![alt-text][figure-10]
+
+*Hyperloop Passenger Plus Vehicle Capsule*
 
 1. Tube air is compressed with a compression ratio of 20:1 via an axial compressor.
-2. Up to 85% of this air is bypassed: 
-  a. The air travels via a narrow tube near bottom of the capsule to the tail. 
-  b. A nozzle at the tail expands the flow generating thrust to mitigate some of the small amounts of aerodynamic and bearing drag. 
-3. Up to 0.44 lb/s (0.2 kg/s) of air is cooled and compressed an additional 6.2:1 for the passenger plus vehicle version with additional cooling afterward.
-  a. This air is stored in onboard composite overwrap pressure vessels. 
-  b. The stored air is eventually consumed by the air bearings to maintain distance between the capsule and tube walls. 4. An onboard water tank is used for cooling of the air.
-  a. Water is pumped at 0.86 lb/s (0.39 kg/s) through two intercoolers (1,800 lb or 818 kg total mass of coolant).
-  b. The steam is stored onboard until reaching the station.
-  c. Water and steam tanks are changed automatically at each stop. 
-5. The compressor is powered by a 1,160 hp (865 kW) onboard electric motor: 
-  a. The motor has an estimated mass of 606 lb (275 kg), which includes power electronics. 
-  b. An estimated 8,900 lb (4,000 kg) of batteries provides 45 minutes of onboard compressor power, which is more than sufficient for the travel time with added reserve backup power. 
-  c. Onboard batteries are changed at each stop and charged at the stations.
 
-# <a name="capsule-suspension"></a>4.1.4. Suspension
+2. Up to 85% of this air is bypassed: 
+
+    a. The air travels via a narrow tube near bottom of the capsule to the tail. 
+    
+    b. A nozzle at the tail expands the flow generating thrust to mitigate some of the small amounts of aerodynamic and bearing drag. 
+
+3. Up to 0.44 lb/s (0.2 kg/s) of air is cooled and compressed an additional 6.2:1 for the passenger plus vehicle version with additional cooling afterward.
+
+    a. This air is stored in onboard composite overwrap pressure vessels. 
+    
+    b. The stored air is eventually consumed by the air bearings to maintain distance between the capsule and tube walls. 
+
+4. An onboard water tank is used for cooling of the air.
+
+    a. Water is pumped at 0.86 lb/s (0.39 kg/s) through two intercoolers (1,800 lb or 818 kg total mass of coolant).
+  
+    b. The steam is stored onboard until reaching the station.
+  
+    c. Water and steam tanks are changed automatically at each stop. 
+
+5. The compressor is powered by a 1,160 hp (865 kW) onboard electric motor: 
+
+    a. The motor has an estimated mass of 606 lb (275 kg), which includes power electronics. 
+    
+    b. An estimated 8,900 lb (4,000 kg) of batteries provides 45 minutes of onboard compressor power, which is more than sufficient for the travel time with added reserve backup power. 
+  
+    c. Onboard batteries are changed at each stop and charged at the stations.
+
+![alt-text][figure-11]
+
+**4.1.4. Suspension**
 
 Suspending the capsule within the tube presents a substantial technical challenge due to transonic cruising velocities. Conventional wheel and axle systems become impractical at high speed due frictional losses and dynamic instability. A viable technical solution is magnetic levitation; however the cost associated with material and construction is prohibitive. An alternative to these conventional options is an air bearing suspension. Air bearings offer stability and extremely low drag at a feasible cost by exploiting the ambient atmosphere in the tube.
+
+![alt-text][figure-12]
 
 Externally pressurized and aerodynamic air bearings are well suited for the Hyperloop due to exceptionally high stiffness, which is required to maintain stability at high speeds. When the gap height between a ski and the tube wall is reduced, the flow field in the gap exhibits a highly non-linear reaction resulting in large restoring pressures. The increased pressure pushes the ski away from the wall, allowing it to return to its nominal ride height. While a stiff air bearing suspension is superb for reliability and safety, it could create considerable discomfort for passengers onboard. To account for this, each ski is integrated into an independent mechanical suspension, ensuring a smooth ride for passengers. The capsule may also include traditional deployable wheels similar to aircraft landing gear for ease of movement at speeds under 100 mph (160 kph) and as a component of the overall safety system.
 
@@ -328,13 +438,13 @@ The passenger plus vehicle version of the Hyperloop capsule places more aggressi
 
 The passenger plus vehicle capsule air bearing system weight is expected to be about 8,400 lb (3,800 kg) including the compressors, air tank, plumbing, suspension, and bearing surfaces. The overall cost of the air bearing components is targeted to be no more than $565,000.
 
-# <a name="capsule-power"></a>4.1.5. Onboard Power
+**4.1.5. Onboard Power**
 
 The passenger capsule power system includes an estimated 5,500 lb (2,500 kg) of batteries to power the capsule systems in addition to the compressor motor (using 3,400 lb or 1,500 kg of the batteries) and coolant. The battery, motor, and electronic components cost is estimated to be near $150,000 per capsule in addition to the cost of the suspension system.
 
 The passenger plus vehicle capsule power system includes an estimated 12,100 lb (5,500 kg) of batteries to power capsule systems in addition to the compressor motor (using 8,900 lb or 4,000 kg of the batteries) and coolant. The battery, motor and electronic components cost is estimated to be near $200,000 per capsule in addition to the cost of the suspension system.
 
-# <a name="capsule-propulsion"></a>4.1.6. Propulsion
+**4.1.6. Propulsion**
 
 In order to propel the vehicle at the required travel speed, an advanced linear motor system is being developed to accelerate the capsule above 760 mph (1,220 kph) at a maximum of 1g for comfort. The moving motor element (rotor) will be located on the vehicle for weight savings and power requirements while the tube will incorporate the stationary motor element (stator) which powers the vehicle. More details can be found in the section 4.3.
 
@@ -346,26 +456,34 @@ The overall propulsion system weight attached to the capsule is expected to be n
 
 The overall propulsion system weight attached to the capsule is expected to be near 3,500 lb (1,600 kg) including the support and emergency braking system. The overall cost of the system is targeted to be no more than $150,000. This brings the total capsule weight near 57,000 lb (26,000) kg including passenger, luggage, and vehicle weight.
 
-# <a name="capsule-cost"></a>4.1.7. Cost
+**4.1.7. Cost**
 
 The overall cost of the Hyperloop passenger capsule version (Table 1) is expected to be under $1.35 million USD including manufacturing and assembly cost. With 40 capsules required for the expected demand, the total cost of capsules for the Hyperloop system should be no more than $54 million USD or approximately 1% of the total budget.
 
 Although the overall cost of the project would be higher, we have also detailed the expected cost of a larger capsule (Table 2) which could carry not only passengers but cargo and cars/SUVs as well. The frontal area of the capsule would have to be increased to 43 ft2 (4 m2) and the tube diameter would be increased to 10 ft 10 in. (3.3 m).
+
+![alt-text][table-1]
+
+![alt-text][table-2]
 
 # <a name="tube"></a>4.2. Tube
 -------------------------
 
 The main Hyperloop route consists of a partially evacuated cylindrical tube that connects the Los Angeles and San Francisco stations in a closed loop system (Figure 2). The tube is specifically sized for optimal air flow around the capsule improving performance and energy consumption at the expected travel speed. The expected pressure inside the tube will be maintained around 0.015 psi (100 Pa, 0.75 torr), which is about 1/6 the pressure on Mars or 1/1000 the pressure on Earth. This low pressure minimizes the drag force on the capsule while maintaining the relative ease of pumping out the air from the tube. The efficiency of industrial vacuum pumps decreases exponentially as the pressure is reduced (Figure 13), so further benefits from reducing tube pressure would be offset by increased pumping complexity.
 
+![alt-text][figure-13]
+
 In order to minimize cost of the Hyperloop tube, it will be elevated on pillars which greatly reduce the footprint required on the ground and the size of the construction area required. Thanks to the small pillar footprint and by maintaining the route as close as possible to currently operated highways, the amount of land required for the Hyperloop is minimized. More details are available for the route in section 4.4.
 
 The Hyperloop travel journey will feel very smooth since the capsule will be guided directly on the inner surface of the tube via the use of air bearings and suspension; this also prevents the need for costly tracks. The capsule will bank off the walls and include a control system for smooth returns to nominal capsule location from banking as well. Some specific sections of the tube will incorporate the stationary motor element (stator) which will locally guide and accelerate (or decelerate) the capsule. More details are available for the propulsion system in section 4.3. Between linear motor stations, the capsule will glide with little drag via air bearings.
 
-# <a name="tube-geometry"></a>4.2.1. Geometry
+**4.2.1. Geometry**
 
 The geometry of the tube depends on the choice of either the passenger version of Hyperloop or the passenger plus vehicles version of Hyperloop.
 
 In either case, if the speed of the air passing through the gaps accelerates to supersonic velocities, then shock waves form. These waves limit how much air can actually get out of the way of the capsule, building up a column of air in front of its nose and increasing drag until the air pressure builds up significantly in front of the capsule. With the increased drag and additional mass of air to push, the power requirements for the capsule increase significantly. It is therefore very important to avoid shock wave formation around the capsule by careful selection of the capsule/tube area ratio. This ensures sufficient mass air flow around and through the capsule at all operating speeds. Any air that cannot pass around the annulus between the capsule and tube is bypassed using the onboard compressor in each capsule.
+
+![alt-text][figure-14]
 
 *Passenger Hyperloop Tube*
 
@@ -383,7 +501,7 @@ The closed passenger plus vehicle Hyperloop tube will be mounted side-by-side in
 
 The stations are isolated from the main tube as much as possible in order to limit air leaks into the system. In addition, isolated branches and stations off the main tubes could be built to access some towns along the way between Los Angeles and San Francisco. Vacuum pumps will run continuously at various locations along the length of the tube to maintain the required pressure despite any possible leaks through the joints and stations. The expected cost of all required vacuum pumps is expected to be no more than $10 million USD.
 
-# <a name="tube-construction"></a>4.2.2. Tube Construction
+**4.2.2. Tube Construction**
 
 In order to keep cost to a minimum, a uniform thickness steel tube reinforced with stringers was selected as the material of choice for the inner diameter tube. Tube sections would be pre-fabricated and installed between pillar supports spaced 100 ft (30 m) on average, varying slightly depending on location. This relatively short span allows keeping tube material cost and deflection to a minimum.
 
@@ -398,7 +516,7 @@ The cost of the tube is expected to be less than $650 million USD, including pre
 
 The tube wall thickness for the larger tube would be between 0.9 and 1.0 in (23 to 25 mm). Tube cost calculations were also made for the larger diameter tube which would allow usage of the cargo and vehicle capsule in addition to the passenger capsule. In this case, the cost of the tube is expected to be less than $1.2 billion USD. Since the spacing between pillars would not change and the pillars are more expensive than the tube, the overall cost increase is kept to a minimum.
 
-# <a name="tube-support"></a>4.2.3. Pylons and Tunnels
+**4.2.3. Pylons and Tunnels**
 
 The tube will be supported by pillars which constrain the tube in the vertical direction but allow longitudinal slip for thermal expansion as well as dampened lateral slip to reduce the risk posed by earthquakes. In addition, the pillar to tube connection nominal position will be adjustable vertically and laterally to ensure proper alignment despite possible ground settling. These minimally constrained pillars to tube joints will also allow a smoother ride. Specially designed slip joints at stations will be able to take any tube length variance due to thermal expansion. This is an ideal location for the thermal expansion joints as the speed is much lower nearby the stations. It thus allows the tube to be smooth and welded along the high speed gliding middle section.
 
@@ -410,7 +528,19 @@ The expected cost for the tunneling is expected to be no more than $600 million 
 
 Structural simulations (Figure 15 through Figure 20) have demonstrated the capability of the Hyperloop to withstand atmospheric pressure, tube weight, earthquakes, winds, etc. Dampers will be incorporated between the pylons and tubes to isolate movements in the ground from the tubes.
 
-# <a name="tube-stations"></a>4.2.4. Station Construction
+![alt-text][figure-15]
+
+![alt-text][figure-16]
+
+![alt-text][figure-17]
+
+![alt-text][figure-18]
+
+![alt-text][figure-19]
+
+![alt-text][figure-20]
+
+**4.2.4. Station Construction**
 
 Hyperloop stations are intended to be minimalist but practical with a boarding process and layout much simpler than airports.
 
@@ -422,7 +552,7 @@ The transit area at a Hyperloop terminal would be a large open area with two lar
 
 Once vacated, the capsule would be rotated on a turntable, and aligned for re- entry into the Hyperloop tube. The departing passengers, and their pre-loaded luggage pod, would then enter the capsule. A Hyperloop attendant would next perform a safety check of the seat belt of each passenger before the capsule is cleared for departure. At this point the capsule would then be moved forward into the exit airlock, where the pressure is lowered to the operating level of the Hyperloop, and then sent on its way. Note that loading and unloading would occur in parallel with up to three capsules at a given station at any time. The expected cost for each station is around $125 million for a total of $250 million USD initially.
 
-# <a name="tube-cost"></a>4.2.5. Cost
+**4.2.5. Cost**
 
 The overall cost of the tube, pillars, vacuum pumps and stations is thus expected to be around $4.06 billion USD for the passenger version of the Hyperloop. This does not include the cost of the propulsion linear motors or solar panels. The tube represents approximately 70% of the total budget.
 
@@ -446,36 +576,44 @@ This section details a large linear accelerator, capable of the 300 to 760 mph (
 
 The Hyperloop uses a linear induction motor to accelerate and decelerate the capsule. This provides several important benefits over a permanent magnet motor:
 
-  [] Lower material cost – the rotor can be a simple aluminum shape, and does not require rare-earth elements. 
-  [] Lighter capsule. 
-  [] Smaller capsule dimensions.
+  - Lower material cost – the rotor can be a simple aluminum shape, and does not require rare-earth elements. 
+  - Lighter capsule. 
+  - Smaller capsule dimensions.
   
 The lateral forces exerted by the stator on the rotor though low at 0.9 lbf/ft (13 N/m) are inherently stabilizing. This simplifies the problem of keeping the rotor aligned in the air gap.
+
+![alt-text][figure-21]
 
 Each accelerator has two 70 MVA inverters, one to accelerate the outgoing capsule, and one to capture the energy from the incoming capsule. Inverters in the 10+ MVA power range are not unusual in mining, drives for large cargo ships, and railway traction. Moreover, 100+ MVA drives are commercially available. Relatively inexpensive semiconductor switches allow the central inverters to energize only the section of track occupied by a capsule, improving the power factor seen by the inverters.
 
 The inverters are physically located at the highest speed end of the track to minimize conductor cost.
 
-# <a name="propulsion-rotor"></a>4.3.1. Capsule Components (Rotor)
+![alt-text][figure-22]
+
+**4.3.1. Capsule Components (Rotor)**
 
 The rotor of the linear accelerators is very simple – an aluminum blade 49 ft (15 m) long, 1.5 ft (0.45 m) tall, and 2 in. (50 mm) thick. Current flows mainly in the outer 0.4 in. (10 mm) of this blade, allowing it to be hollow to decrease
 weight and cost.
 
 The gap between the rotor and the stator is 0.8 in. (20 mm) on each side. A combination of the capsule control system and electromagnetic centering forces allows the capsule to safely enter, stay within, and exit such a precise gap.
 
-# <a name="propulsion-stator"></a>4.3.2. Tube Components (Stator)
+![alt-text][figure-23]
+
+**4.3.2. Tube Components (Stator)**
 
 The stator is mounted to the bottom of the tube over the entire 2.5 miles (4.0 km) it takes to accelerate and decelerate between 300 and 760 mph (480 and 1,220 km). It is approximately 1.6 ft (0.5 m) wide (including the air gap) and 4.0 in. (10 cm) tall, and weighs 530 lb/ft (800 kg/m).
 
 Laid out symmetrically on each side of the rotor, its electrical configuration is 3-phase, 1 slot per pole per phase, with a variable linear pitch (1.3 ft or 0.4 m maximum). The number of turns per slot also varies along the length of the stator, allowing the inverter to operate at nearly constant phase voltage, which simplifies the power electronics design. The two halves of the stator require bracing to resist the magnetic forces of 20 lbf/ft (300N/m) that try to bring them together.
 
-# <a name="propulsion-power"></a>4.3.3. Energy Storage Components
+![alt-text][figure-24]
+
+**4.3.3. Energy Storage Components**
 
 Energy storage allows this linear accelerator to only draw its average power of 8,000 hp (6 MW) (rather than the peak power of 74,000 hp or 55 MW) from its solar array.
 
 Building the energy storage element out of the same lithium ion cells available in the Tesla Model S is economical. A battery array with enough power capability to provide the worst-case smoothing power has a lot of energy – launching 1 capsule only uses 0.5% of the total energy – so degradation due to cycling is not an issue. With proper construction and controls, the battery could be directly connected to the HVDC bus, eliminating the need for an additional DC/DC converter to connect it to the propulsion system.
 
-# <a name="propulsion-cost"></a>4.3.4. Cost
+**4.3.4. Cost**
 
 As described above, the propulsion elements on the capsule are limited to the rotor and not expected to cost any more than $3 million USD for the overall system. The bulk of the propulsion cost is for the stator elements connected to the track and for the inverters to drive the stator. All tube-side propulsion costs together for all linear accelerators add up to $140 million USD.
 
@@ -486,16 +624,17 @@ This cost is roughly divided as followed:
 
 The solar array and associated electronics provide the required average power of 28,000 hp (21 MW) and are expected to cost approximately $210 million USD.
 
-# <a name="propulsion-freight"></a>4.3.5. Propulsion for Passenger Plus Vehicle System
+**4.3.5. Propulsion for Passenger Plus Vehicle System**
 
 Compared to the passenger-only capsule, the passenger plus vehicle capsule weighs more, requires a more powerful compressor, and has 50% higher total drag. This increases both the peak and continuous power requirements on the propulsion system, so that the Hyperloop now consumes an average of 66,000 hp (49 MW). However, there is still more than enough solar power available on the wider tubes (122,000 hp or 91 MW, on average) to provide this.
 
 The expected total cost for this larger propulsion system is $691 million USD, divided as follows:
 - 66,000 hp (49 MW) (yearly average requirement) solar array: $490 million USD 
 - Propulsion system total: $200 million USD
-  [] Stator and structure materials = 47% 
-  [] Power electronics = 37% 
-  [] Energy storage = 16%
+      
+      - Stator and structure materials = 47% 
+      - Power electronics = 37% 
+      - Energy storage = 16%
 
 # <a name="route"></a>4.4. Route
 -------------------------
@@ -516,7 +655,9 @@ These bend radii have been calculated so that the passenger does not experience 
 
 The Hyperloop route was created by the authors using Google Earth.
 
-# <a name="route-optimization"></a>4.4.1. Route Optimization
+![alt-text][figure-25]
+
+**4.4.1. Route Optimization**
 
 In order to avoid bend radii that would lead to uncomfortable passenger inertial accelerations and hence limit speed, it is necessary to optimize the route. This can be achieved by deviating from the current highway system, earth removal, constructing pylons to achieve elevation change or tunneling.
 
@@ -539,7 +680,11 @@ The route has been divided into the following sections:
       
 The speed (Figure 26) along the Hyperloop and distance (Figure 27) as a function of time summarize the route.
 
-# <a name="route-south"></a>4.4.1.1. Los Angeles/Grapevine - South
+![alt-text][figure-26]
+
+![alt-text][figure-27]
+
+**4.4.1.1. Los Angeles/Grapevine - South**
 
 *Visualization:* 
   The preliminary route is shown in yellow. Bend radii are shown in red. The green dashed line delineates the north/south Grapevine definition in this document. 
@@ -547,7 +692,11 @@ The speed (Figure 26) along the Hyperloop and distance (Figure 27) as a function
 *Route:*
   Follows I-5 through Santa Clarita and Castaic.
 
-# <a name="route-north"></a>4.4.1.2. Los Angeles/Grapevine – North
+![alt-text][figure-28]
+
+![alt-text][table-3]
+
+**4.4.1.2. Los Angeles/Grapevine – North**
 
 *Visualization:*
   The preliminary route is shown in yellow. Bend radii are shown in red. The green dashed line delineates the north/south Grapevine definition in this document.
@@ -555,7 +704,11 @@ The speed (Figure 26) along the Hyperloop and distance (Figure 27) as a function
 *Route:*
   Significant deviation from I-5 in order to increase bend radius and develop straight sections.
 
-# <a name="route-i5"></a>4.4.1.3. Center Section of I-5
+![alt-text][figure-29]
+
+![alt-text][table-4]
+
+**4.4.1.3. Center Section of I-5**
 
 *Visualization:*
   The preliminary route is shown in yellow. Bend radii are shown in red.
@@ -563,7 +716,11 @@ The speed (Figure 26) along the Hyperloop and distance (Figure 27) as a function
 *Route:*
   Follows I-5 to minimize land/right of way purchase costs.
 
-# <a name="route-i580"></a>4.4.1.4. I-580/San Francisco Bay
+![alt-text][figure-30]
+
+![alt-text][table-5]
+
+**4.4.1.4. I-580/San Francisco Bay**
 
 *Visualization:*
   The preliminary route is shown in yellow. Bend radii are shown in red.
@@ -571,39 +728,66 @@ The speed (Figure 26) along the Hyperloop and distance (Figure 27) as a function
 *Route:*
   Follows I-580 to minimize land/right of way purchase costs. Deviation from I-580 West of Dublin in order to develop straight sections.
 
-# <a name="route-stations"></a>4.4.2. Station Locations
+![alt-text][figure-31]
+
+![alt-text][table-6]
+
+**4.4.2. Station Locations**
 
 The major stations for Hyperloop are suggested based on high traffic regions between major cities. The largest cities by metro population in California according to 2010 to 2012 estimates from various sources (Table 7) are considered for station locations.
 
+![alt-text][table-7]
+
 Stations at these major population centers are considered for Hyperloop. One additional traffic corridor to consider is between Los Angeles, California and Las Vegas, Nevada with a metro population of 2.1 million. Significant traffic is present through this corridor on a weekly basis.
+
+![alt-text][figure-32]
 
 The traffic between Los Angeles, California and San Francisco/San Jose, California is estimated to be at least 6 million travelers per year. This possibly represents the busiest corridor of travel in California. Travel along this corridor is anticipated to increase with completion of the Hyperloop due to both decreased travel time and decreased travel cost.
 
 Additional Hyperloop stations are suggested at the following major population centers:
 
   1. San Diego, California: 
-    a. Connects to Los Angeles, California main station. 
-    b. Capsule departures every 5 minutes. 
-    c. Transports around 3 million people per year.
+  
+      a. Connects to Los Angeles, California main station. 
+    
+      b. Capsule departures every 5 minutes. 
+    
+      c. Transports around 3 million people per year.
+  
   2. Las Vegas, Nevada: 
-    a. Connects to Los Angeles, California main station. 
-    b. Uses a portion of the San Diego branch route near Los Angeles and tube branches near San Bernardino, California. 
-    c. Capsule departures every 8 minutes.
-    d. Transports around 1.8 million people per year. 
+    
+      a. Connects to Los Angeles, California main station. 
+    
+      b. Uses a portion of the San Diego branch route near Los Angeles and tube branches near San Bernardino, California. 
+    
+      c. Capsule departures every 8 minutes.
+    
+      d. Transports around 1.8 million people per year. 
+  
   3. Sacramento, California:
-    a. Connects to San Francisco, California main station. 
-    b. Uses a portion of the main route near San Francisco and tube branches near Stockton, California. 
-    c. Capsule departures every 15 minutes. 
-    d. Transports around 1 million people per year.
+  
+      a. Connects to San Francisco, California main station. 
+      
+      b. Uses a portion of the main route near San Francisco and tube branches near Stockton, California. 
+    
+      c. Capsule departures every 15 minutes. 
+    
+      d. Transports around 1 million people per year.
+  
   4. Fresno, California: 
-    a. Connects to both San Francisco, California and Los Angeles, California main stations. 
-    b. Los Angeles bound travelers:
-      i. Uses the main route closer to San Francisco plus a small branch along State Route 41 near Fresno.
-      ii.	Capsule departures every 15 minutes. iii.	Transports around 1 million people per year.
-    c. San Francisco bound travelers: 
-      i. Uses the main route closer to Los Angeles plus a small branch along State Route 41 near Fresno. 
-      ii.	Capsule departures every 30 minutes.
-      iii.	Transports around 0.5 million people per year.
+    
+      a. Connects to both San Francisco, California and Los Angeles, California main stations. 
+    
+      b. Los Angeles bound travelers:
+      
+          i.  Uses the main route closer to San Francisco plus a small branch along State Route 41 near Fresno.
+          ii. Capsule departures every 15 minutes. iii.	Transports around 1 million people per year.
+    
+      c. San Francisco bound travelers: 
+      
+          i.    Uses the main route closer to Los Angeles plus a small branch along State Route 41 near Fresno. 
+          ii.   Capsule departures every 30 minutes.
+          iii.  Transports around 0.5 million people per year.
 
 # <a name="safety"></a>4.5. Safety and Reliability
 -------------------------
@@ -612,7 +796,7 @@ The design of Hyperloop has been considered from the start with safety in mind. 
 
 Some of the safety scenarios below are unique to the proposed system, but all should be considered relative to other forms of transportation. In many cases Hyperloop is intrinsically safer than airplanes, trains, or automobiles.
 
-# <a name="safety-onboard"></a>4.5.1. Onboard Passenger Emergency
+**4.5.1. Onboard Passenger Emergency**
 
 All capsules would have direct radio contact with station operators in case of emergencies, allowing passengers to report any incident, to request help and to receive assistance. In addition, all capsules would be fitted with first aid equipment.
 
@@ -620,19 +804,19 @@ The Hyperloop allows people to travel from San Francisco to LA in 30 minutes. Th
 
 Typical times between an emergency and access to a physician should be shorter than if an incident happened during airplane takeoff. In the case of the airplane, the route would need to be adjusted, other planes rerouted, runways cleared, airplane landed, taxi to a gate, and doors opened. An emergency in a Hyperloop capsule simply requires the system to complete the planned journey and meet emergency personnel at the destination.
 
-# <a name="safety-power"></a>4.5.2. Power Outage
+**4.5.2. Power Outage**
 
 The vast majority of the Hyperloop travel distance is spent coasting and so the capsule does not require continuous power to travel. The capsule life support systems will be powered by two or more redundant lithium ion battery packs making it unaffected by a power outage. In the event of a power outage occurring after a capsule had been launched, all linear accelerators would be equipped with enough energy storage to bring all capsules currently in the Hyperloop tube safely to a stop at their destination. In addition, linear accelerators using the same storage would complete the acceleration of all capsules currently in the tube. For additional redundancy, all Hyperloop capsules would be fitted with a mechanical braking system to bring capsules safely to a stop.
 
 In summary, all journeys would be completed as expected from the passenger’s perspective. Normal travel schedules would be resumed after power was restored.
 
-# <a name="safety-depressurization"></a>4.5.2. Capsule Depressurization
+**4.5.2. Capsule Depressurization**
 
 Hyperloop capsules will be designed to the highest safety standards and manufactured with extensive quality checks to ensure their integrity. In the event of a minor leak, the onboard environmental control system would maintain capsule pressure using the reserve air carried onboard for the short period of time it will take to reach the destination. In the case of a more significant depressurization, oxygen masks would be deployed as in airplanes. Once the capsule reached the destination safely it would be removed from service. Safety of the onboard air supply in Hyperloop would be very similar to aircraft, and can take advantage of decades of development in similar systems.
 
 In the unlikely event of a large scale capsule depressurization, other capsules in the tube would automatically begin emergency braking whilst the Hyperloop tube would undergo rapid re-pressurization along its entire length.
 
-# <a name="safety-tube"></a>4.5.3. Capsule Stranded in Tube
+**4.5.3. Capsule Stranded in Tube**
 
 A capsule becoming stranded in the Hyperloop tube is highly unlikely as the capsule coasts the majority of the distance at high speed and so there is no propulsion required for more than 90% of the journey.
 
@@ -640,23 +824,23 @@ If a capsule were somehow to become stranded, capsules ahead would continue thei
 
 All capsules would be equipped with a reserve air supply great enough to ensure the safety of all passengers for a worst case scenario event.
 
-# <a name="safety-structural"></a>4.5.4. Structural Integrity of the Tube in Jeopardy
+**4.5.4. Structural Integrity of the Tube in Jeopardy**
 
 A minor depressurization of the tube is unlikely to affect Hyperloop capsules or passengers and would likely be overcome by increased vacuum pump power. Any minor tube leaks could then be repaired during standard maintenance.
 
 In the event of a large scale leak, pressure sensors located along the tube would automatically communicate with all capsules to deploy their emergency mechanical braking systems.
 
-# <a name="safety-earthquakes"></a>4.5.5. Earthquakes
+**4.5.5. Earthquakes**
 
 California is no stranger to earthquakes and transport systems are all built with earthquakes in mind. Hyperloop would be no different with the entire tube length built with the necessary flexibility to withstand the earthquake motions while maintaining the Hyperloop tube alignment.
 
 It is also likely that in the event of a severe earthquake, Hyperloop capsules would be remotely commanded to actuate their mechanical emergency braking systems.
 
-# <a name="safety-humans"></a>4.5.6. Human Related Incidents
+**4.5.6. Human Related Incidents**
 
 Hyperloop would feature the same high level of security used at airports. However, the regular departure of Hyperloop capsules would result in a steadier and faster flow of passengers through security screening compared to airports. Tubes located on pylons would limit access to the critical elements of the system. Multiple redundant power sources and vacuum pumps would limit the impact of any single element.
 
-# <a name="safety-reliability"></a>4.5.7. Reliability
+**4.5.7. Reliability**
 
 The Hyperloop system comprising all infrastructure, mechanical, electrical, and software components will be designed so that it is reliable, durable, and fault tolerant over its service life (100 years), while maintaining safety levels that match or exceed the safety standard of commercial air transportation.
 
@@ -664,6 +848,10 @@ The Hyperloop system comprising all infrastructure, mechanical, electrical, and 
 -------------------------
 
 The total cost of the Hyperloop passenger transportation system as outlined is less than $6 billion USD (Table 8). The passenger plus vehicle version of Hyperloop is including both passenger and cargo capsules and the total cost is outlined as $7.5 billion USD (Table 9).
+
+![alt-text][table-8]
+
+![alt-text][table-9]
 
 # <a name="conclusions"></a>5. Conclusions
 -------------------------
@@ -689,31 +877,49 @@ Feedback is welcomed on these or any useful aspects of the Hyperloop design. E-m
 
 
 [header]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/concept.png "concept"
-[figure-1]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure1.png "figure 1"
-[figure-2]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure2.png "figure 2"
-[figure-3]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure3.png "figure 3"
-[figure-4]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure4.png "figure 4"
-[figure-5]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure5.png "figure 5"
-[figure-6]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure6.png "figure 6"
-[figure-7]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure7.png "figure 7"
-[figure-8]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure8.png "figure 8"
-[figure-9]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure9.png "figure 9"
-[figure-10]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure10.png "figure 10"
-[figure-11]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure11.png "figure 11"
-[figure-12]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure12.png "figure 12"
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
-[figure-]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure.png "figure "
+[figure-1]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%201.png "figure 1"
+[figure-2]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%202.png "figure 2"
+[figure-3]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%203.png "figure 3"
+[figure-4]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%204.png "figure 4"
+[figure-5]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%205.png "figure 5"
+[figure-6]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%206.png "figure 6"
+[figure-7]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%207.png "figure 7"
+[figure-8]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%208.png "figure 8"
+[figure-9]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%209.png "figure 9"
+[figure-10]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2010.png "figure 10"
+[figure-11]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2011.png "figure 11"
+[figure-12]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2012.png "figure 12"
+[figure-13]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2013.png "figure 13"
+[figure-14]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2014.png "figure 14"
+[figure-15]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2015.png "figure 15"
+[figure-16]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2016.png "figure 16"
+[figure-17]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2017.png "figure 17"
+[figure-18]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2018.png "figure 18"
+[figure-19]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2019.png "figure 19"
+[figure-20]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2020.png "figure 20"
+[figure-21]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2021.png "figure 21"
+[figure-22]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2022.png "figure 22"
+[figure-23]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2023.png "figure 23"
+[figure-24]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2024.png "figure 24"
+[figure-25]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2025.png "figure 25"
+[figure-26]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2026.png "figure 26"
+[figure-27]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2027.png "figure 27"
+[figure-28]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2028.png "figure 28"
+[figure-29]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2029.png "figure 29"
+[figure-30]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2030.png "figure 30"
+[figure-31]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2031.png "figure 31"
+[figure-32]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/figure%2032.png "figure 32"
 
 
-
-
-
-
+[table-1]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%201.png "table 1"
+[table-2]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%202.png "table 2"
+[table-3]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%203.png "table 3"
+[table-4]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%204.png "table 4"
+[table-5]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%205.png "table 5"
+[table-6]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%206.png "table 6"
+[table-7]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%207.png "table 7"
+[table-8]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%208.png "table 8"
+[table-9]: https://raw.github.com/leonidkozhukh/hyperloop/master/images/table%209.png "table 9"
 
 
 
