@@ -1,15 +1,15 @@
 **implementation has a software-centric core:**
 
-	- [accounting.md](https://github.com/leonidkozhukh/hyperloop/blob/master/accounting.md)
+- [accounting.md](https://github.com/leonidkozhukh/hyperloop/blob/master/accounting.md)
 
-	- communication
+- communication
 
 		- internal status and obstacle navigation
 		- internal (& external?) resource sharing to minimize footprint
 		- external open source collaboration
 		- external content marketing
 
-	- full digital model of hyperloop ecosystem
+- full digital model of hyperloop ecosystem
 
 		- topology + tunneling
 		- pillars on topology
@@ -18,19 +18,19 @@
 		- pods in tube + propulsion system
 
 
-**modeling can be parallelized:**
+*modeling can be parallelized:*
 
-	- topology with satellite data + google self-driving car data
+- topology with satellite data + google self-driving car data
 
-	- main construction (pillars, tube, solar)
+- main construction (pillars, tube, solar)
 
-	- internal system (propulsion, capsultes, safety)
+- internal system (propulsion, capsultes, safety)
 
-**each part maps to physical actions as next steps:**
+*each part maps to physical actions as next steps:*
 
-	- set concrete route, figure out land use
+- set concrete route, figure out land use
 
-	- test main construction on small scale
+- test main construction on small scale
 
-	- test internal system on small scale
+- test internal system on small scale
 
