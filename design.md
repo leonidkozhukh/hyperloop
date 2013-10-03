@@ -3,7 +3,7 @@ design foundation
 
 - in order to plug into the existing, global transportation infrastructure we need to design around the 2.44m x 2.60m x 12.2m intermodal container.
 
-- the material selection for construction should optimize for low net impact on environment. ideally, concrete can be created from CO2 emissions at the scale necessary for this infrastructure project. calera could be a source, potentially. see: pillar.md
+- the material selection for construction should optimize for low net impact on environment. ideally, concrete can be created from CO2 emissions at the scale necessary for this infrastructure project. calera could be a source, potentially. see [pillars.md](https://github.com/leonidkozhukh/hyperloop/blob/master/pillars.md)
 
 - open accounting will be used to ensure transparency. hopeful side effect: bureaucracy and unnecessary obstacles are limited.
 
