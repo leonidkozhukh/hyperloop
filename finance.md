@@ -1,4 +1,4 @@
-**passsenger only hyperloop: $6b**
+~~**passsenger only hyperloop: $6b**~~
 
 **p+v hyperloop: $7.5b**
 
@@ -13,11 +13,12 @@
 **the hyperloop will be able to generate upwards of $500m/yr in revenue.**
 
 100 trips/hr * $500 * 24hr * 365 days = $438m
+
 solar revenue: $100-200m/yr
 
 **issues concerning the financing source(s):**
 
-	- $3b+ in bureaucratic bloat, see [accounting.md](https://github.com/leonidkozhukh/hyperloop/blob/master/accounting.md)
+	- $3b+ in bureaucratic bloat
 
 	- engaging open source community & broader society
 
