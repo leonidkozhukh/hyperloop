@@ -4,16 +4,18 @@
 
 - google - self-driving cars, data integration, mapping, fiber?
 
-- ansys - modeling expertise
+- [ansys](http://www.ansys.com) - modeling expertise
 
-- calera - concrete made from CO2 emissions
+- [uiuc.edu](http://www.csar.uiuc.edu/rocstar/index.html) - open-source multi-physics modeling
 
-- sun synchrony -  system generating 350W/m^2
+- [calera](http://calera.com) - concrete made from CO2 emissions
 
-- solar city - solar infrastructure
+- [sun synchrony](http://sunsynchrony.com) -  system generating 350W/m^2
 
-- plaid.io - open accounting simplification
+- [solar city](http://solarcity.com) - solar infrastructure
 
-- jumpstartfund - "at this moment, we are gathering the interest of people to work on the different sections on the site. After that we will announce next steps and work with the community on certain tasks." - dirk ahlborn
+- [plaid.io](https://plaid.io) - open accounting simplification
 
-- et3 - ??
+- [jumpstartfund](https://www.jumpstartfund.com) - "at this moment, we are gathering the interest of people to work on the different sections on the site. After that we will announce next steps and work with the community on certain tasks." - dirk ahlborn
+
+- [et3](http://et3.com) - ??
